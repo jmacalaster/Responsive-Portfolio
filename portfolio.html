@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julia Macalaster's Bio</title>
 
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
 </head>
@@ -37,10 +37,34 @@
     </header>
     
     <section id="contain">
-        <img id="image-p" src="./assets/Hangman.png" alt="Hangman" id="image">
-        <img id="image-p" src="./assets/Train.png" alt="Train Schedule" id="image">
-        <img id="image-p" src="./assets/trivia.png" alt="Def Method Trivia" id="image">
-
+      <div class="container">
+        <div class="card-columns">
+          <div class="card">
+              <img class="card-img" src="./assets/Hangman.png" alt="Hangman" id="image">
+              <div class="card-body">
+                  <h5 class="card-title portfolio-column">Hangman</h5>
+                  <p class="card-text">For this project I created a hangman game using Javascript and jQuery. The user starts typing letters and the game will determine if their guess is part of the word or inncorect.</p>
+                  <a class="card-text" href="http://juliamacalaster.com/word-guess-game/">VIEW GAME</a>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img" src="./assets/Train.png" alt="Train Schedule" id="image">
+              <div class="card-body">
+                  <h5 class="card-title portfolio-column">Train Schedule</h5>
+                  <p class="card-text">For this project I created a mock "train schedule" that uses Firebase to store use inputs and moment.js to track the amount of time until the next train.</p>
+                  <a class="card-text" href="http://juliamacalaster.com/train-schedule-hw/">VIEW SCHEDULE</a>
+              </div>
+          </div>
+          <div class="card">
+              <img class="card-img" src="./assets/trivia.png" alt="Def Method Trivia" id="image">
+              <div class="card-body">
+                  <h5 class="card-title portfolio-column">Def Method Trivia</h5>
+                  <p class="card-text">For this project I created a timed trivia game where users are asked a trivia question about an employee at Def Method. When they answer they are told if they were correct or incorrect and brought to the next question. At the end of the game they are shown their final score.</p>
+                  <a class="card-text" href="http://juliamacalaster.com/trivia-game/">VIEW GAME</a>
+              </div>
+          </div>
+        </div>
+      </div>
     </section>
     
     <div class="footer">
